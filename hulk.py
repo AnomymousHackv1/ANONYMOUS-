@@ -5,7 +5,7 @@
 # to their knees by exhausting the resource pool, its is meant for research purposes only
 # and any malicious usage of this tool is prohibited.
 #
-# author :  Barry Shteiman , version 1.0
+# author :  AR CARLON , version 1.0
 # ----------------------------------------------------------------------------------------------
 import urllib2
 import sys
@@ -70,7 +70,7 @@ def buildblock(size):
 
 def usage():
 	print '---------------------------------------------------'
-	print 'USAGE: python hulk.py <url>'
+	print 'USAGE: python anonymus.py <url>'
 	print 'you can add "safe" after url, to autoshut after dos'
 	print '---------------------------------------------------'
 
@@ -128,7 +128,8 @@ class MonitorThread(threading.Thread):
 				print "%d Requests Sent" % (request_counter)
 				previous=request_counter
 		if flag==2:
-			print "\n-- HULK Attack Finished --"
+			print "\n-- ANONYMOUS HACK SITE BİTTİ
+ --"
 
 #execute 
 if len(sys.argv) < 2:
@@ -139,7 +140,7 @@ else:
 		usage()
 		sys.exit()
 	else:
-		print "-- HULK Attack Started --"
+		print "-- ANONYMOUS HACK SITE BAŞLADI  --"
 		if len(sys.argv)== 3:
 			if sys.argv[2]=="safe":
 				set_safe()
