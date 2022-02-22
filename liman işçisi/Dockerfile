@@ -1,5 +1,5 @@
 FROM golang:1-alpine
-LABEL maintainer="Alexander I.Grafov <grafov@gmail.com>"
+LABEL maintainer="Carlon I.Grafov <alkanemrullah910 @gmail.com>"
 
 RUN apk add --no-cache git \
   && go get -d -v github.com/grafov/hulk \
@@ -7,6 +7,6 @@ RUN apk add --no-cache git \
   && rm -rf ~/go/src/github.com/grafov/hulk \
   && apk del git
 
-ENTRYPOINT ["hulk"]
+ENTRYPOINT ["anomymous"]
 
 CMD ["--help"]
